@@ -10,6 +10,16 @@
     <meta name="description" content="">
     <meta name="keywords" content="termino, otro termino, términos">
     <meta name="robots" content="index, nofollow">
+
+    <!-- Evento de Log In -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
+            'event':'login',
+            'userID':'AD98774453',
+            'userProfile':'admin'
+        });
+    </script>
     
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -57,12 +67,14 @@
         <section id="novedades">
             <h1>Novedades</h1>
             <div id="contenedor" class="contenedor">
+
                 <article>
                     <img src="img/01.jpg" alt="H.P. Lovecraft, Obras Completas">
                     <h2>H.P. Lovecraft, Obras Completas</h2>
                     <p>Por primera vez un tomo que recopila la obra del gran autor de terror: cuatro novelas y cincuenta y tres cuentos cortos.</p>
                     <a href="libro1.html" class="libros_home" onclick="dataLayer.push({'event': 'click_libro', 'titulo_del_libro' : 'H.P. Lovecraft, Obras Completas', 'autor_del_libro':'H.P. Lovecraft'});">Ver más</a>
                 </article>
+                
                 <article>
                     <img src="img/02.jpg" alt="Conan, las Crónicas Completas">
                     <h2>Conan, las Crónicas Completas</h2>
